@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css aplicação -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Menu - Cafeteria</title>
+</head>
+
+<body>
+
+    <div class="caixa-video">
+        <video src="./videos/coofe.mp4" loop muted autoplay></video>
+        <div class="mascara"></div>
+    </div>
+
+    <header>
+        <section>
+            <a href="index.html">
+                <img src="./imgs/logo.png" alt="logo-cafeteria">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="menu.html">Menu</a>
+                <a href="avaliacoes.html">Avaliações</a>
+                <a href="#" onclick="mostrarModal()">Endereços</a>
+            </nav>
+        </section>
+    </header>
+
+    <section class="caixa-menu">
+        <h2>Nosso Menu</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="./imgs/menu-1.png" alt="Café 1">
+                <h3>Café Expresso</h3>
+                <div class="preco">R$ 7.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+            <div class="menu-item">
+                <img src="./imgs/menu-2.png" alt="Café 2">
+                <h3>Capuccino</h3>
+                <div class="preco">R$ 12.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+            <div class="menu-item">
+                <img src="./imgs/menu-3.png" alt="Café 3">
+                <h3>Latte Macchiato</h3>
+                <div class="preco">R$ 14.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+            <div class="menu-item">
+                <img src="./imgs/menu-4.png" alt="Café 4">
+                <h3>Mocha</h3>
+                <div class="preco">R$ 15.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+            <div class="menu-item">
+                <img src="./imgs/menu-5.png" alt="Café 5">
+                <h3>Americano</h3>
+                <div class="preco">R$ 8.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+            <div class="menu-item">
+                <img src="./imgs/menu-6.png" alt="Café 6">
+                <h3>Frappuccino</h3>
+                <div class="preco">R$ 18.00</div>
+                <a href="#" class="botao-link">Pedir Agora</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+        <h3>Nosso Endereço</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29634.60490710703!2d-49.630032117966316!3d-21.806346627617785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1752083420505!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <div class="mascara-modal" onclick="esconderModal()"></div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <title>Cafeteria</title>
+    <title>Avaliações - Cafeteria</title>
 </head>
 
 <body>
@@ -23,7 +23,7 @@
 
     <header>
         <section>
-            <a href="#">
+            <a href="index.html">
                 <img src="./imgs/logo.png" alt="logo-cafeteria">
             </a>
             <nav>
@@ -36,45 +36,32 @@
         </section>
     </header>
 
-
-    <section class="caixa-principal">
-        <div>
-            <h3>Esperimente o Melhor Café da Região</h3>
-            <p>Cada xícara do nosso café carrega o sabor autêntico da montanha, com grãos selecionados e uma torra
-                artesanal que realça os aromas e o equilíbrio perfeito entre corpo e acidez. Uma experiência única para
-                quem valoriza qualidade e tradição.</p>
-            <a href="#" class="botao-link">Peça o seu agora</a>
-        </div>
-
-
-    </section>
-
-    <section class="caixa-sobre">
-        <h2>Sobre Nós</h2>
-        <div class="sobre-container">
-            <div class="sobre-img">
-                <img src="./imgs/about-img.jpg" alt="Uma xicara com café">
+    <section class="caixa-avaliacoes">
+        <h2>O que dizem nossos clientes</h2>
+        <div class="avaliacoes-grid">
+            <div class="avaliacao-card">
+                <img src="./imgs/pic-1.png" alt="Cliente 1">
+                <p>"O melhor café que já tomei! O ambiente é super aconchegante e o atendimento é nota dez."</p>
+                <h3>João Silva</h3>
+                <div class="estrelas">★★★★★</div>
             </div>
-            <div class="sobre-texto">
-                <h3>O que faz nosso Café Especial ?</h3>
-                <p>
-                    Nosso Café Especial é cultivado com dedicação em altitudes ideais, colhido manualmente e selecionado
-                    grão por grão.
-                </p>
-                <p>
-                    Com torra artesanal e sabor marcante, ele entrega uma experiência única de aroma,
-                    corpo e equilíbrio que conquista até os paladares mais exigentes.
-                </p>
-
-                <a href="sobre.html" class="botao-link">Saiba Mais</a>
-
+            <div class="avaliacao-card">
+                <img src="./imgs/pic-2.png" alt="Cliente 2">
+                <p>"Os grãos selecionados fazem toda a diferença. O Capuccino deles é simplesmente perfeito."</p>
+                <h3>Maria Oliveira</h3>
+                <div class="estrelas">★★★★★</div>
+            </div>
+            <div class="avaliacao-card">
+                <img src="./imgs/pic-3.png" alt="Cliente 3">
+                <p>"Um lugar maravilhoso para trabalhar e tomar um bom café. Recomendo o Frappuccino!"</p>
+                <h3>Pedro Santos</h3>
+                <div class="estrelas">★★★★☆</div>
             </div>
         </div>
     </section>
 
     <div class="modal">
         <h3>Nosso Endereço</h3>
-
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29634.60490710703!2d-49.630032117966316!3d-21.806346627617785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be467589002709%3A0x54c03e662abc324e!2sCafel%C3%A2ndia%2C%20SP%2C%2016500-000!5e0!3m2!1spt-BR!2sbr!4v1752083420505!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -82,10 +69,9 @@
         </iframe>
     </div>
 
-    <div class="mascara-modal"onclick="esconderModal()"></div>
+    <div class="mascara-modal" onclick="esconderModal()"></div>
 
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 

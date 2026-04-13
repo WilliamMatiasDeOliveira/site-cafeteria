@@ -213,3 +213,94 @@ header section nav a:hover{
 
 
 
+
+/* Estilos Adicionais para Menu e Avaliações */
+.caixa-menu, .caixa-avaliacoes {
+    padding: 150px 15% 50px;
+    min-height: 100vh;
+}
+
+.caixa-menu h2, .caixa-avaliacoes h2 {
+    text-align: center;
+    color: var(--main-color);
+    text-transform: uppercase;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.menu-item {
+    background-color: var(--black);
+    padding: 2rem;
+    text-align: center;
+    border: var(--border);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.menu-item:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.menu-item img {
+    height: 10rem;
+    margin-bottom: 1rem;
+}
+
+.menu-item h3 {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.menu-item .preco {
+    color: var(--main-color);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.avaliacoes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.avaliacao-card {
+    background-color: var(--black);
+    padding: 2rem;
+    border: var(--border);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.avaliacao-card img {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.avaliacao-card p {
+    color: rgba(255,255,255,0.7);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.avaliacao-card h3 {
+    color: var(--main-color);
+    font-size: 1.3rem;
+}
+
+.estrelas {
+    color: gold;
+    margin-top: 0.5rem;
+}
